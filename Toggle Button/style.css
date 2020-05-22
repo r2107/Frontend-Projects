@@ -1,0 +1,23 @@
+#outer{
+    display: flex;
+    height: 2.4rem;
+    width: 7rem;
+    border-radius: 50px;
+    /*border-width: px;*/
+    border-style: solid;
+    border-color: black;
+    background-color:white;
+    margin: 0 auto;
+    overflow: hidden;
+    flex-direction: row;
+}
+#outer > div{
+    height: inherit;
+    width: 30%;
+    background-color: black;
+    /*margin: 1px 1px 1px 1px;*/
+    border-radius: 400px;
+}
+#heading{
+    text-align: center;
+}
